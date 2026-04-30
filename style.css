@@ -1,0 +1,17 @@
+* {
+  margin: 0px;
+}
+.q {
+  padding: 15px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.e {
+  display: flex;
+  gap: 25px;
+}
+.w {
+    font-size: 15px;
+    font-weight: 100;
+}
