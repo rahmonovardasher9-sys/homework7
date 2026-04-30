@@ -12,6 +12,99 @@
   gap: 25px;
 }
 .w {
-    font-size: 15px;
-    font-weight: 100;
+  font-size: 15px;
+  font-weight: 100;
+}
+.r {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 100%;
+}
+.t {
+  margin: 10px 0px;
+  color: rgba(118, 118, 118, 1);
+  font-size: 18px;
+  font-weight: 400;
+}
+.y {
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(105, 185, 157, 1);
+  padding-bottom: 0px;
+}
+.u {
+  background-color: rgba(105, 185, 157, 1);
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.i {
+  width: 45%;
+  height: 500px;
+  margin-top: 100px;
+}
+.p {
+  position: relative;
+}
+.a {
+  position: absolute;
+  width: 480px;
+  height: 300px;
+  background-color: rgba(204, 244, 230, 1);
+}
+.s {
+  width: 490px;
+  height: 310px;
+  position: absolute;
+  z-index: 1;
+  top: 50px;
+  right: 30px;
+}
+.d {
+  margin-top: 0px;
+  height: auto;
+  position: relative;
+}
+.u {
+  animation-name: button;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: 2;
+}
+.f {
+  padding: 100px 0px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  border-bottom: 1px solid rgba(105, 185, 157, 1);
+}
+@keyframes button {
+  0% {
+    transform: rotate(360deg);
+  }
+}
+.g {
+  width: 400px;
+  height: 150px;
+  position: absolute;
+  z-index: 0;
+}
+.h {
+  width: 450px;
+  position: absolute;
+  z-index: 1;
+  top: 40px;
+}
+.j {
+  position: relative;
+  width: 44%;
+  top: -160px;
+}
+.k {
+  width: 45%;
 }
